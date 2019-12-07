@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    android:layoutDirection="ltr">
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ip Address"
+        android:textColor="#000000"
+        android:id="@+id/ET_IP"
+        android:backgroundTint="#575757"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="port"
+        android:textColor="#000000"
+        android:id="@+id/ET_PORT"
+        android:backgroundTint="#575757"
+        android:textSize="17sp"
+        android:gravity="left"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="connect"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/BTN_CONNECT"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="message ..."
+        android:textColor="#000000"
+        android:id="@+id/ET_MESSAGE"
+        android:backgroundTint="#575757"
+        android:textSize="15sp"
+        android:lines="5"
+        android:layout_marginTop="10dp"
+        android:gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send message"
+        android:layout_marginTop="15dp"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/BTN_SEND"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="answer ..."
+        android:textColorHint="#327534"
+        android:textColor="#327534"
+        android:id="@+id/ET_ANSWER"
+        android:backgroundTint="#327534"
+        android:textSize="15sp"
+        android:lines="4"
+        android:layout_marginTop="15dp"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
